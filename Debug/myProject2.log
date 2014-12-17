@@ -1,0 +1,52 @@
+﻿Build started 2012/11/3 20:09:56.
+     1>Project "C:\Project\myProject2\myProject2\myProject2.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\myProject2.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt learnply.cpp
+         learnply.cpp
+     1>c:\project\myproject2\myproject2\learnply.cpp(124): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\project\myproject2\myproject2\learnply.cpp(126): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\project\myproject2\myproject2\learnply.cpp(388): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\project\myproject2\myproject2\learnply.cpp(926): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\project\myproject2\myproject2\learnply.cpp(970): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\project\myproject2\myproject2\learnply.cpp(987): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\project\myproject2\myproject2\learnply.cpp(996): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\project\myproject2\myproject2\learnply.cpp(1176): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\project\myproject2\myproject2\learnply.cpp(1183): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\project\myproject2\myproject2\learnply.cpp(1185): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : see declaration of 'fscanf'
+     1>c:\project\myproject2\myproject2\learnply.cpp(1219): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>c:\project\myproject2\myproject2\learnply.cpp(1219): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>c:\project\myproject2\myproject2\learnply.cpp(1219): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>c:\project\myproject2\myproject2\learnply.cpp(1220): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>c:\project\myproject2\myproject2\learnply.cpp(1220): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>c:\project\myproject2\myproject2\learnply.cpp(1220): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>c:\project\myproject2\myproject2\learnply.cpp(1253): warning C4305: '=' : truncation from 'double' to 'GLfloat'
+     1>c:\project\myproject2\myproject2\learnply.cpp(1307): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\project\myproject2\myproject2\learnply.cpp(1408): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\project\myproject2\myproject2\learnply.cpp(1441): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\project\myproject2\myproject2\learnply.cpp(1985): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Project\myProject2\Debug\myProject2.exe" /NOLOGO opengl32.lib glut32.lib glu32.lib glew32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\myProject2.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Project\myProject2\Debug\myProject2.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Project\myProject2\Debug\myProject2.lib" /MACHINE:X86 Debug\icVector.obj
+         Debug\learnply.obj
+         Debug\ply.obj
+         Debug\tmatrix.obj
+         Debug\trackball.obj
+         LINK : C:\Project\myProject2\Debug\myProject2.exe not found or not built by the last incremental link; performing full link
+         myProject2.vcxproj -> C:\Project\myProject2\Debug\myProject2.exe
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Project\myProject2\Debug\myProject2.exe;#1" /manifest Debug\myProject2.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\myProject2.unsuccessfulbuild".
+         Touching "Debug\myProject2.lastbuildstate".
+     1>Done Building Project "C:\Project\myProject2\myProject2\myProject2.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.72

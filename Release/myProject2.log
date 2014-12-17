@@ -1,0 +1,158 @@
+﻿Build started 2012/10/18 23:09:22.
+     1>Project "C:\Project\myProject2\myProject2\myProject2.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "C:\Project\myProject2\Release\".
+       InitializeBuildStatus:
+         Creating "Release\myProject2.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt icVector.cpp learnply.cpp ply.cpp tmatrix.cpp trackball.cpp
+         icVector.cpp
+         learnply.cpp
+     1>learnply.cpp(121): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+     1>learnply.cpp(123): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>learnply.cpp(385): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>learnply.cpp(923): warning C4018: '<' : signed/unsigned mismatch
+     1>learnply.cpp(967): warning C4018: '<' : signed/unsigned mismatch
+     1>learnply.cpp(984): warning C4018: '<' : signed/unsigned mismatch
+     1>learnply.cpp(993): warning C4018: '<' : signed/unsigned mismatch
+     1>learnply.cpp(1173): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>learnply.cpp(1180): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>learnply.cpp(1182): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
+     1>learnply.cpp(1216): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>learnply.cpp(1216): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>learnply.cpp(1216): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>learnply.cpp(1217): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>learnply.cpp(1217): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>learnply.cpp(1217): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>learnply.cpp(1250): warning C4305: '=' : truncation from 'double' to 'GLfloat'
+     1>learnply.cpp(1304): warning C4018: '<' : signed/unsigned mismatch
+     1>learnply.cpp(1405): warning C4018: '<' : signed/unsigned mismatch
+     1>learnply.cpp(1438): warning C4018: '<' : signed/unsigned mismatch
+     1>learnply.cpp(1982): warning C4018: '<' : signed/unsigned mismatch
+         ply.cpp
+     1>ply.cpp(175): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(238) : see declaration of 'strdup'
+     1>ply.cpp(214): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+     1>ply.cpp(217): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110) : see declaration of 'strcat'
+     1>ply.cpp(221): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>ply.cpp(207): warning C4101: 'elem' : unreferenced local variable
+     1>ply.cpp(205): warning C4101: 'i' : unreferenced local variable
+     1>ply.cpp(350): warning C4101: 'i' : unreferenced local variable
+     1>ply.cpp(352): warning C4101: 'prop' : unreferenced local variable
+     1>ply.cpp(476): warning C4101: 'i' : unreferenced local variable
+     1>ply.cpp(672): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>ply.cpp(707): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(238) : see declaration of 'strdup'
+     1>ply.cpp(747): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : see declaration of 'strcpy'
+     1>ply.cpp(750): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110) : see declaration of 'strcat'
+     1>ply.cpp(754): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>ply.cpp(1080): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(238) : see declaration of 'strdup'
+     1>ply.cpp(1206): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(238) : see declaration of 'strdup'
+     1>ply.cpp(1321): warning C4101: 'i' : unreferenced local variable
+     1>ply.cpp(1358): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110) : see declaration of 'strcat'
+     1>ply.cpp(1360): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(110) : see declaration of 'strcat'
+     1>ply.cpp(1528): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(238) : see declaration of 'strdup'
+     1>ply.cpp(1427): warning C4101: 'i' : unreferenced local variable
+     1>ply.cpp(1562): warning C4101: 'i' : unreferenced local variable
+     1>ply.cpp(1714): warning C4101: 'i' : unreferenced local variable
+     1>ply.cpp(1714): warning C4101: 'j' : unreferenced local variable
+     1>ply.cpp(1926): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>ply.cpp(2035): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>ply.cpp(2036): warning C4244: '=' : conversion from 'double' to 'unsigned int', possible loss of data
+     1>ply.cpp(2040): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>ply.cpp(2041): warning C4244: '=' : conversion from 'double' to 'unsigned int', possible loss of data
+     1>ply.cpp(2117): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>ply.cpp(2118): warning C4244: '=' : conversion from 'double' to 'unsigned int', possible loss of data
+     1>ply.cpp(2123): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>ply.cpp(2124): warning C4244: '=' : conversion from 'double' to 'unsigned int', possible loss of data
+     1>ply.cpp(2242): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>ply.cpp(2270): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(238) : see declaration of 'strdup'
+     1>ply.cpp(2339): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(238) : see declaration of 'strdup'
+     1>ply.cpp(2345): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(238) : see declaration of 'strdup'
+     1>ply.cpp(2350): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(238) : see declaration of 'strdup'
+     1>ply.cpp(2328): warning C4101: 'count_type' : unreferenced local variable
+     1>ply.cpp(2327): warning C4101: 'prop_type' : unreferenced local variable
+     1>ply.cpp(2417): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(238) : see declaration of 'strdup'
+     1>ply.cpp(2531): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(238) : see declaration of 'strdup'
+     1>ply.cpp(2557): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(238) : see declaration of 'strdup'
+     1>ply.cpp(2597): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(238) : see declaration of 'strdup'
+     1>ply.cpp(2776): warning C4101: 'i' : unreferenced local variable
+     1>ply.cpp(2778): warning C4101: 'prop' : unreferenced local variable
+     1>ply.cpp(3061): warning C4101: 'count' : unreferenced local variable
+     1>ply.cpp(3060): warning C4101: 'i' : unreferenced local variable
+     1>ply.cpp(3270): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(238) : see declaration of 'strdup'
+         tmatrix.cpp
+     1>tmatrix.cpp(164): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>tmatrix.cpp(165): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>tmatrix.cpp(166): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>tmatrix.cpp(167): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         trackball.cpp
+     1>trackball.cpp(109): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>trackball.cpp(110): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>trackball.cpp(124): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>trackball.cpp(125): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>trackball.cpp(186): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>trackball.cpp(232): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>trackball.cpp(353): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>trackball.cpp(405): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>trackball.cpp(406): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>trackball.cpp(417): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>trackball.cpp(423): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>trackball.cpp(436): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>trackball.cpp(437): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>trackball.cpp(454): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>trackball.cpp(477): warning C4101: 'i' : unreferenced local variable
+     1>trackball.cpp(535): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>trackball.cpp(536): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>trackball.cpp(537): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>trackball.cpp(540): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>trackball.cpp(541): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>trackball.cpp(542): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>trackball.cpp(545): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>trackball.cpp(546): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>trackball.cpp(547): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Project\myProject2\Release\myProject2.exe" /NOLOGO opengl32.lib glut32.lib glu32.lib glew32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\myProject2.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Project\myProject2\Release\myProject2.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Project\myProject2\Release\myProject2.lib" /MACHINE:X86 Release\icVector.obj
+         Release\learnply.obj
+         Release\ply.obj
+         Release\tmatrix.obj
+         Release\trackball.obj
+         Generating code
+         Finished generating code
+         myProject2.vcxproj -> C:\Project\myProject2\Release\myProject2.exe
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Project\myProject2\Release\myProject2.exe;#1" /manifest Release\myProject2.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\myProject2.unsuccessfulbuild".
+         Touching "Release\myProject2.lastbuildstate".
+     1>Done Building Project "C:\Project\myProject2\myProject2\myProject2.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.99
